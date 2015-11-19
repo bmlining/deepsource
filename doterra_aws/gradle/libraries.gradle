@@ -1,0 +1,10 @@
+ext {
+  dropwizardVersion = '0.9.1'
+  junitVersion = '4.12'
+  
+  libraries = [
+  	dropwizard_core: "io.dropwizard:dropwizard-core:${dropwizardVersion}",
+  	junit: "junit:junit:${junitVersion}",
+  ]
+
+}
