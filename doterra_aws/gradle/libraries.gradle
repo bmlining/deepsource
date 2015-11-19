@@ -1,9 +1,14 @@
 ext {
   dropwizardVersion = '0.9.1'
+  jerseyVersion = '2.21'
   junitVersion = '4.12'
   
   libraries = [
   	dropwizard_core: "io.dropwizard:dropwizard-core:${dropwizardVersion}",
+  	jersey_common: "org.glassfish.jersey.core:jersey-common:${jerseyVersion}",
+  	jersey_container_servlet: "org.glassfish.jersey.containers:jersey-container-servlet:${jerseyVersion}",
+  	jersey_container_servlet_core: "org.glassfish.jersey.containers:jersey-container-servlet-core:${jerseyVersion}",
+  	jersey_server: "org.glassfish.jersey.core:jersey-server:${jerseyVersion}",
   	junit: "junit:junit:${junitVersion}",
   ]
 
